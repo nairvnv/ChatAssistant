@@ -1,0 +1,7 @@
+default	 aiodj kadpok paso gibberish xyz abc dwoia ksap hdajo no no no yes okay okay blah
+greeting	 hi hi. hello how are you ? hey . hows it going good morning good evening good afternoon howdy whats up whats good heyyy whaddup yo yoo yooo helloo hellooo gmorning greeting good to see you its good seeing you how are you how're you. how are you doing. how ya doin, how ya doin. how is everything.how is everything going. howdy.
+price-inquiry	  how much for a bedroom room cost how much, price of. cost. expensive hotel.How much is the cost ? What's the price ? What's the cost ? How much is price? How much it costs ? price cost money how much. how much? expense ? cheap ?
+product-inquiry	 IHG hotels. What is this product  .What's the product  What does this product do ? What is name of product ? What this product is all about? Can you tell me something about this product ? What are the product features ? Tell me feature of product. ? What is IHG? IHG .details of IHG hotels Franchise
+conversation-complete	 goodbye bye byee byeee okay done Thanks done that's all thats it. thats it I am done Thank you for information Thank. thanks. thank you. thanks nothing else thats it. bye. take care.
+other	 book a hotel. book. reservation reserve hotel make booking new
+reward-program	 loyalty program . rewards . reward points . silver platinum gold. points point check my loyalty program

@@ -1,0 +1,158 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.button-chat {
+  background-color: #1F4456;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.button-chat:hover,
+.button-chat:focus {
+  background-color: #E8542C;
+}
+
+.button-chat:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-chat:active {
+  background-color: #E8542C;
+  box-shadow: none;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+.block{
+    display: block;
+}
+.form-control {
+    margin:5px;
+    width: 80%;
+    min-height: 38px;
+    font-size: 15px;
+    border: 1px solid #c8c8c8;
+}
+
+
+.login-page-container {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: middle; b
+    position: relative;
+    min-height: 300px;
+    position: absolute;
+}
+
+.login-page-container .username-submit {
+    margin-top: 10px;
+}
+
+#chat-page ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: auto;
+    overflow-y: scroll;
+    padding: 0 20px 0px 20px;
+    height: 325px;
+}
+
+#chat-page ul li {
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+
+#chat-page ul li p {
+    margin: 0;
+}
+
+.chat-header{
+    border-radius:15px 15px 0 0;
+    background-color:#1F4456;
+    color:white;
+    padding: 3px;
+    font-size: 12px;
+    height:70px;
+}
+
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius:50%;
+  background-color: #E8542C;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  height:100px;
+}
+
+.chat-popup {
+  position: fixed;
+  bottom: 140px;
+  right: 15px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+}
+
+
+.username-header{
+      font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

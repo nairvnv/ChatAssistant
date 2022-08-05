@@ -1,0 +1,9 @@
+com\tcs\springapp\controller\ChatController.class
+com\tcs\springapp\SpringChatApp.class
+com\tcs\springapp\model\ChatMessage.class
+com\tcs\springapp\controller\SocketController.class
+com\tcs\springapp\cfg\MessageBroker.class
+com\tcs\springapp\model\ChatMessage$MessageType.class
+com\tcs\springapp\services\AssistantService.class
+com\tcs\springapp\services\BookingService.class
+com\tcs\springapp\services\LoginService.class

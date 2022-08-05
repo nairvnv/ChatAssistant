@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>Chat Application</title>
+	<link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+<div id="login-page">
+	<div class="login-page-container">
+		<h1 class="title">Dummy Login Page</h1>
+		<form id="usernameForm" name="usernameForm">
+			<div class="form-group">
+				<input type="text" id="name" placeholder="user id" autocomplete="off" class="form-control" />
+			</div>
+			<div class="form-group">
+				<input type="text" id="room-id"  placeholder="unique conversation id" autocomplete="off" class="form-control" />
+			</div>
+			<div class="form-group">
+				<button type="submit" class="accent username-submit">Start Chatting</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="chat-page" class="hidden">
+	<button class="open-button" onclick="openForm()">Chat</button>
+	<div class="chat-popup hidden" id="popup">
+		<form action="/action_page.php" class="form-container">
+			<div class="chat-container">
+				<div class="chat-header">
+					<h2>IHG Hotels </h2>
+					<p>Chat Assistant</p>
+				</div>
+				<ul id="messageArea">
+
+				</ul>
+
+				<button id="bookingStatus" class="button-chat hidden">Check Booking Status</button>
+				<form id="statusForm" name="statusForm" nameForm="statusForm">
+				</form>
+				<button id="cancelBooking" class="button-chat hidden">Cancel a booking</button>
+				<button id="other" class="button-chat hidden">other</button>
+				<form id="messageForm" name="messageForm" nameForm="messageForm">
+					<div class="form-group">
+						<div class="input-group clearfix">
+							<input type="text" id="message" placeholder="Type Message..."
+								   autocomplete="off" class="form-control"/>
+							<button type="submit" class="button-chat btn btn-primary"><span class="bi bi-send"></span></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
